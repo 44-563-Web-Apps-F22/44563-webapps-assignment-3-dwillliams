@@ -37,6 +37,7 @@
         <a href="aboutme.html">About Me</a>
         
         <hr>
+
         <h1>Cities to Visit</h1>
         <p>Below is a table with 4 cities that I would recommend to visit, locations that are worth visiting, and how long I would recommend staying at the attraction.</p>
         <table>
@@ -66,5 +67,26 @@
                 <td>2 Hours</td>
             </tr>
         </table>
+        
+        <hr>
+
+        <h1>Code Snippet</h1>
+        <blockquote cite="https://stackoverflow.com/questions/1962031/how-to-check-if-a-string-starts-with-in-php">
+            How to check if a string starts with "_" in PHP?
+        </blockquote>
+        <pre>
+        <?php 
+  
+        function startsWith($string, $startString) { 
+            $len = strlen($startString); 
+            return (substr($string, 0, $len) === $startString); 
+        } 
+
+        // usage
+        echo startsWith("cat", "c"); // true
+        echo startsWith("dog", "x"); // false
+
+        ?> 
+        </pre>
     </body>
 </html>
