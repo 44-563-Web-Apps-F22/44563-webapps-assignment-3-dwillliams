@@ -1,11 +1,3 @@
 # WebApps-F22-Assignment-3
 Assignment 3 - Basic HTML
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Friends</title>
-    </head>
-    <body>
-        <h1>Dallas Williams</h1>
-    </body>
-</html>
+![Hosted at](https://github.com/44-563-Web-Apps-F22/44563-webapps-assignment-3-dwillliams/settings/pages)
